@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<network-security-config>
+    <domain-config>
+        <domain includeSubdomains="true">ec2-3-108-41-6.ap-south-1.compute.amazonaws.com</domain>
+        <trust-anchors>
+            <certificates src="@raw/fineractapp"/>
+        </trust-anchors>
+    </domain-config>
+</network-security-config>

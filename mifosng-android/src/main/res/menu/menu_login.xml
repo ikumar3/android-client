@@ -3,7 +3,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto">
     <item
         android:id="@+id/mItem_connection_settings"
-        android:enabled="true"
+        android:enabled="false"
         android:title="@string/connection_settings"
         app:showAsAction="always|withText" />
 </menu>
